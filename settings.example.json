@@ -1,0 +1,10 @@
+{
+    "wbAPIKEY": "wildberries api key",
+    "speedsheets": [
+        {
+            "id": "google speedsheet ID",
+            "cred_filepath": "./cred.json"
+        }
+    ]
+
+}

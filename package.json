@@ -1,0 +1,18 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "migrate": "knex migrate:latest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "googleapis": "^150.0.1",
+    "knex": "^3.1.0",
+    "pg": "^8.16.3",
+    "prettier": "^3.6.2"
+  }
+}
