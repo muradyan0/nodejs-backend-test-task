@@ -15,3 +15,16 @@
 ```
 docker compose up -d
 ```
+
+##  Проверка работоспособности
+
+```
+docker compose logs app
+```
+
+Пример успешного сообщения:
+
+```
+app  | Delivery plan processed successfully
+app  | Sheet 1EauTEv7xQvt_yzGIFc04hxUfyLeRjyunt6KspTpl-ac cleared and new data successfully written
+```
